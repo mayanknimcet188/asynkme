@@ -12,14 +12,14 @@
 
 ### Overview
 
-To give you a first grasp, here is simple example of app made with `sketch`
+To give you a first grasp, here is simple example of app made with `asynkme`
 
 `app.py`
 
 ```python3
 import asyncio
 
-from sketch import Application, Response, run_app
+from asynkme import Application, Response, run_app
 
 loop = asyncio.get_event_loop()
 
@@ -43,8 +43,8 @@ $ python app.py
 ```
 
 ```shell
-$ curl http://127.0.0.1:8080/oleh
->> Hello, oleh
+$ curl http://127.0.0.1:8080/mayank
+>> Hello, mayank
 ```
 
 ### License
